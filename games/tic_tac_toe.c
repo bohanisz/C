@@ -69,6 +69,11 @@ int main()
         printf("Next game ? : ");
         printf("Enter 1 – YES and 0 - NO ");
         scanf("%d", &l);
+        for(int i=0;l!=1&&l!=0;i++){
+			  printf("wrong choice,choose again\n");
+			  printf("Next game ? : ");
+        	printf("Enter 1 鈥?YES and 0 - NO ");
+        	scanf("%d", &l);}
 
     } while (l == 1);
 
